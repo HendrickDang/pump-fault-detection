@@ -1,0 +1,12 @@
+# Python 3.12
+# tensorflow and numpy are pinned to the versions used for the reported run.
+# Replace the unpinned lines with the exact versions from:
+#   pip freeze | findstr /i "keras scikit-learn pandas matplotlib seaborn scipy"
+tensorflow==2.16.1
+numpy==1.26.4
+scikit-learn
+pandas
+matplotlib
+seaborn
+scipy
+jupyter
